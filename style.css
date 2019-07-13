@@ -18,10 +18,9 @@ html {
 
 body {
     font-family:cursive;
-    margin: 10px auto;
+    margin: 30px auto;
     width: 90%;
     max-width: 1200px;
-    background-color: #f4f4f4;	
 	}
 
 h1 {
@@ -44,12 +43,12 @@ a {
 	font-size: 14px;	
 	}
 	
-a:hover, li:hover {
+a:hover, li:hover, img:hover {
 	opacity: .7;	
 	}
 li {
     list-style-type: none;
-    font-size: 14px;
+    font-size: 28px;
 }
 	
 img.b3 {
@@ -68,6 +67,8 @@ img.b3 {
     position: absolute;    
     top: 30px;
     left: 30px;
+        margin-bottom: 20px;
+        z-index: -1;
     }
     div.quicklinks{
     position: absolute;
@@ -77,19 +78,24 @@ img.b3 {
     }
 
 ul.ulinks{    
-    width: 300px;
+    width: ;
 }
 
 ul.ulinks li{    
-    background-color: #ffffff;
+    background-color: ;
     display: inline;
+}
+a.donate{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5DADE2;
 }
 .buttonlink{
     position: absolute;
     top: 60px;
     right: 30px;
     width: 150px;
-    background: #f6f7f7;
+    background: ;
     padding:10px;
 }
 .buttonlink img.links {
@@ -101,7 +107,8 @@ ul.ulinks li{
     top: 100px;
     left: 10px;
     width: 180px;
-    background: #f6f7f7;
+    background: ;
+    font-size: 28px;
 }
 
 
@@ -129,7 +136,7 @@ ul#myNav {
 }
 li {
     width: 230px; 
-    background-color: #ccc;
+    background-color: ;
     list-style-type: none;
     display: inline-block; 
     padding: 14px 16px; 
@@ -137,7 +144,7 @@ li {
     text-align: center;
 }    
 li:hover{
-    background-color: lightgoldenrodyellow;     
+    background-color: ;     
     }
 li a{
         color: black;

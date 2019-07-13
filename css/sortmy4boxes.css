@@ -57,16 +57,16 @@
 	left:0;
 	right:0;
 	height:211px;
-	background: #888;
+	background: ;
 	text-align:center;
-	color:#3e3e3e;
+	color:;
 	transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 }
 .hover_img:hover .item_description {
-	top:0;
+	opacity: .6;
 }
 
 .item_description p {
