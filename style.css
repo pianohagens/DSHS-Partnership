@@ -71,10 +71,14 @@ img.b3 {
         z-index: -1;
     }
     div.quicklinks{
+        float: right;
+        padding-top: 30px;
+/*
     position: absolute;
     top: 30px;
     right: 50px;
     width: 200px;
+*/
     }
 
 ul.ulinks{    
@@ -88,7 +92,12 @@ ul.ulinks li{
 a.donate{
     font-size: 20px;
     font-weight: bold;
-    color: #5DADE2;
+    color: #1A5276;
+}
+a.rsvp{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgreen;
 }
 .buttonlink{
     position: absolute;
